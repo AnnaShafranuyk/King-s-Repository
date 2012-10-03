@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7b3b091d-4f31-4f54-b717-efcb907a703d" name="S@S-PC 2012-09-26 18:32:39" runUser="S-PC\S" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="a80f811d-45bb-4b2e-b20b-2b2eeee21cd0">
+    <Deployment runDeploymentRoot="S_S-PC 2012-09-26 18_32_39">
+      <DeploymentItem filename="D:\projectz\Registration\Registration\Registration\bin\Debug\Registration.exe" />
+      <DeploymentItem filename="C:\Users\S\Downloads\Bin\Net40\Newtonsoft.Json.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-26T18:32:39.6645285+03:00" queuing="2012-09-26T18:32:40.4255720+03:00" start="2012-09-26T18:32:40.5485790+03:00" finish="2012-09-26T18:32:41.7846497+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="6" error="0" failed="2" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ComputeStringMD5HashTest" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="d7d80565-8a59-b908-391c-7d28c97b825c">
+      <Execution id="11f36442-b7d3-4ec7-b798-d557e4db207e" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ComputeStringMD5HashTest" />
+    </UnitTest>
+    <UnitTest name="createPersonTest" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="6377b645-3969-6cd1-d04a-37ae42951131">
+      <Execution id="8e61242c-0619-4f62-ac1e-36065ff26f97" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="createPersonTest" />
+    </UnitTest>
+    <UnitTest name="validateComboBox1Test" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="88f633b7-0613-dec2-001e-98d94b47287a">
+      <Execution id="f1cafaae-5b9e-43f2-bb05-a334d7a70a64" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="validateComboBox1Test" />
+    </UnitTest>
+    <UnitTest name="checkCaptchaTest" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="e05b979d-c89a-5070-3401-89843268cead">
+      <Execution id="8975901e-93e7-492f-b39b-9b3bd81b7286" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkCaptchaTest" />
+    </UnitTest>
+    <UnitTest name="registerCompleteTest" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="2cb4f749-2a95-7c8f-4577-069c93d7244b">
+      <Execution id="c39a42ea-0c72-41ff-b6a1-af1f84325d87" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="registerCompleteTest" />
+    </UnitTest>
+    <UnitTest name="validatecomboBox2Test" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="c1b6612c-8bda-61ee-7a60-a3a8feeddb90">
+      <Execution id="6ada0390-3ce2-4f4d-9ce0-b508fc51029a" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="validatecomboBox2Test" />
+    </UnitTest>
+    <UnitTest name="validateTextBox2Test" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="70062fe8-c524-26fe-d16a-3038dd1bac3f">
+      <Execution id="3012ede5-f430-4931-bfda-a35b8d7bc92b" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="validateTextBox2Test" />
+    </UnitTest>
+    <UnitTest name="validateTextBox1Test" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="647a9ee5-9d72-ebe4-d9c3-95e7fb044cf7">
+      <Execution id="6652b565-fadb-41fa-a924-24936d55c79f" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="validateTextBox1Test" />
+    </UnitTest>
+    <UnitTest name="createImageTest" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="57e618bd-1940-8794-b8d0-412880009082">
+      <Execution id="4ead3f27-6702-4d8b-8a63-4d20984e3cb6" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="createImageTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2cb4f749-2a95-7c8f-4577-069c93d7244b" executionId="c39a42ea-0c72-41ff-b6a1-af1f84325d87" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57e618bd-1940-8794-b8d0-412880009082" executionId="4ead3f27-6702-4d8b-8a63-4d20984e3cb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6377b645-3969-6cd1-d04a-37ae42951131" executionId="8e61242c-0619-4f62-ac1e-36065ff26f97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="647a9ee5-9d72-ebe4-d9c3-95e7fb044cf7" executionId="6652b565-fadb-41fa-a924-24936d55c79f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70062fe8-c524-26fe-d16a-3038dd1bac3f" executionId="3012ede5-f430-4931-bfda-a35b8d7bc92b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88f633b7-0613-dec2-001e-98d94b47287a" executionId="f1cafaae-5b9e-43f2-bb05-a334d7a70a64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1b6612c-8bda-61ee-7a60-a3a8feeddb90" executionId="6ada0390-3ce2-4f4d-9ce0-b508fc51029a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7d80565-8a59-b908-391c-7d28c97b825c" executionId="11f36442-b7d3-4ec7-b798-d557e4db207e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e05b979d-c89a-5070-3401-89843268cead" executionId="8975901e-93e7-492f-b39b-9b3bd81b7286" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c39a42ea-0c72-41ff-b6a1-af1f84325d87" testId="2cb4f749-2a95-7c8f-4577-069c93d7244b" testName="registerCompleteTest" computerName="S-PC" duration="00:00:00.1328781" startTime="2012-09-26T18:32:40.6765864+03:00" endTime="2012-09-26T18:32:41.2536194+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c39a42ea-0c72-41ff-b6a1-af1f84325d87">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ead3f27-6702-4d8b-8a63-4d20984e3cb6" testId="57e618bd-1940-8794-b8d0-412880009082" testName="createImageTest" computerName="S-PC" duration="00:00:00.0365332" startTime="2012-09-26T18:32:41.2606198+03:00" endTime="2012-09-26T18:32:41.3066224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ead3f27-6702-4d8b-8a63-4d20984e3cb6">
+    </UnitTestResult>
+    <UnitTestResult executionId="8e61242c-0619-4f62-ac1e-36065ff26f97" testId="6377b645-3969-6cd1-d04a-37ae42951131" testName="createPersonTest" computerName="S-PC" duration="00:00:00.0333346" startTime="2012-09-26T18:32:41.3096226+03:00" endTime="2012-09-26T18:32:41.3496249+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e61242c-0619-4f62-ac1e-36065ff26f97">
+    </UnitTestResult>
+    <UnitTestResult executionId="6652b565-fadb-41fa-a924-24936d55c79f" testId="647a9ee5-9d72-ebe4-d9c3-95e7fb044cf7" testName="validateTextBox1Test" computerName="S-PC" duration="00:00:00.0747369" startTime="2012-09-26T18:32:41.3556252+03:00" endTime="2012-09-26T18:32:41.4376299+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6652b565-fadb-41fa-a924-24936d55c79f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.RegistrationControlTest.validateTextBox1Test threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Registration.RegistrationControl.validateTextBox1(String _login) in D:\projectz\Registration\Registration\Registration\RegistrationControl.cs:line 43
+   at TestProject1.RegistrationControlTest.validateTextBox1Test() in D:\projectz\Registration\Registration\TestProject1\RegistrationControlTest.cs:line 175
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3012ede5-f430-4931-bfda-a35b8d7bc92b" testId="70062fe8-c524-26fe-d16a-3038dd1bac3f" testName="validateTextBox2Test" computerName="S-PC" duration="00:00:00.0624008" startTime="2012-09-26T18:32:41.4456303+03:00" endTime="2012-09-26T18:32:41.5146343+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3012ede5-f430-4931-bfda-a35b8d7bc92b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;False&gt;. Actual:&lt;True&gt;. </Message>
+          <StackTrace>   at TestProject1.RegistrationControlTest.validateTextBox2Test() in D:\projectz\Registration\Registration\TestProject1\RegistrationControlTest.cs:line 192
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f1cafaae-5b9e-43f2-bb05-a334d7a70a64" testId="88f633b7-0613-dec2-001e-98d94b47287a" testName="validateComboBox1Test" computerName="S-PC" duration="00:00:00.0329791" startTime="2012-09-26T18:32:41.5206346+03:00" endTime="2012-09-26T18:32:41.5656372+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1cafaae-5b9e-43f2-bb05-a334d7a70a64">
+    </UnitTestResult>
+    <UnitTestResult executionId="6ada0390-3ce2-4f4d-9ce0-b508fc51029a" testId="c1b6612c-8bda-61ee-7a60-a3a8feeddb90" testName="validatecomboBox2Test" computerName="S-PC" duration="00:00:00.0496058" startTime="2012-09-26T18:32:41.5696374+03:00" endTime="2012-09-26T18:32:41.6256406+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ada0390-3ce2-4f4d-9ce0-b508fc51029a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.RegistrationControlTest.validatecomboBox2Test() in D:\projectz\Registration\Registration\TestProject1\RegistrationControlTest.cs:line 209
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="11f36442-b7d3-4ec7-b798-d557e4db207e" testId="d7d80565-8a59-b908-391c-7d28c97b825c" testName="ComputeStringMD5HashTest" computerName="S-PC" duration="00:00:00.0344441" startTime="2012-09-26T18:32:41.6286408+03:00" endTime="2012-09-26T18:32:41.6706432+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11f36442-b7d3-4ec7-b798-d557e4db207e">
+    </UnitTestResult>
+    <UnitTestResult executionId="8975901e-93e7-492f-b39b-9b3bd81b7286" testId="e05b979d-c89a-5070-3401-89843268cead" testName="checkCaptchaTest" computerName="S-PC" duration="00:00:00.0367893" startTime="2012-09-26T18:32:41.6776436+03:00" endTime="2012-09-26T18:32:41.7206461+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8975901e-93e7-492f-b39b-9b3bd81b7286">
+    </UnitTestResult>
+  </Results>
+</TestRun>

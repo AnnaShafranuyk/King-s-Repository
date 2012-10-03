@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3986da4b-d2f3-475d-9311-3e2561c77de8" name="S@S-PC 2012-09-26 18:20:24" runUser="S-PC\S" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e1dd4ee3-a941-4203-89a1-8a0f5fb1031c">
+    <Deployment runDeploymentRoot="S_S-PC 2012-09-26 18_20_24">
+      <DeploymentItem filename="D:\projectz\Registration\Registration\Registration\bin\Debug\Registration.exe" />
+      <DeploymentItem filename="C:\Users\S\Downloads\Bin\Net40\Newtonsoft.Json.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-26T18:20:24.1064570+03:00" queuing="2012-09-26T18:20:24.2154632+03:00" start="2012-09-26T18:20:24.2234637+03:00" finish="2012-09-26T18:20:24.4374759+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ComputeStringMD5HashTest" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="d7d80565-8a59-b908-391c-7d28c97b825c">
+      <Execution id="6719cb27-6630-4475-9ae5-8860e9cc5236" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ComputeStringMD5HashTest" />
+    </UnitTest>
+    <UnitTest name="checkCaptchaTest" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="e05b979d-c89a-5070-3401-89843268cead">
+      <Execution id="b3515966-e3e4-48be-a86e-6f8f0a4a5922" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkCaptchaTest" />
+    </UnitTest>
+    <UnitTest name="createImageTest" storage="d:\projectz\registration\registration\testproject1\bin\debug\testproject1.dll" id="57e618bd-1940-8794-b8d0-412880009082">
+      <Execution id="9a8930d2-b403-4820-8bc7-96d586dd7b48" />
+      <TestMethod codeBase="D:/projectz/Registration/Registration/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.RegistrationControlTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="createImageTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d7d80565-8a59-b908-391c-7d28c97b825c" executionId="6719cb27-6630-4475-9ae5-8860e9cc5236" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e05b979d-c89a-5070-3401-89843268cead" executionId="b3515966-e3e4-48be-a86e-6f8f0a4a5922" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57e618bd-1940-8794-b8d0-412880009082" executionId="9a8930d2-b403-4820-8bc7-96d586dd7b48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6719cb27-6630-4475-9ae5-8860e9cc5236" testId="d7d80565-8a59-b908-391c-7d28c97b825c" testName="ComputeStringMD5HashTest" computerName="S-PC" duration="00:00:00.0385862" startTime="2012-09-26T18:20:24.2254638+03:00" endTime="2012-09-26T18:20:24.3974736+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6719cb27-6630-4475-9ae5-8860e9cc5236">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3515966-e3e4-48be-a86e-6f8f0a4a5922" testId="e05b979d-c89a-5070-3401-89843268cead" testName="checkCaptchaTest" computerName="S-PC" duration="00:00:00.0090706" startTime="2012-09-26T18:20:24.3994737+03:00" endTime="2012-09-26T18:20:24.4124745+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3515966-e3e4-48be-a86e-6f8f0a4a5922">
+    </UnitTestResult>
+    <UnitTestResult executionId="9a8930d2-b403-4820-8bc7-96d586dd7b48" testId="57e618bd-1940-8794-b8d0-412880009082" testName="createImageTest" computerName="S-PC" duration="00:00:00.0097564" startTime="2012-09-26T18:20:24.4134745+03:00" endTime="2012-09-26T18:20:24.4264753+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a8930d2-b403-4820-8bc7-96d586dd7b48">
+    </UnitTestResult>
+  </Results>
+</TestRun>
